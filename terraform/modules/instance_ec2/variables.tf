@@ -7,7 +7,7 @@ variable "instance_type" {
 variable "launch_template_name" {
   type = string
   description = "instance type"
-  default     = "galp-test
+  default     = "galp-test"
 }
 
 variable "public_subnet" {
