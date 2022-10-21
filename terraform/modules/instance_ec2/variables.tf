@@ -7,7 +7,7 @@ variable "instance_type" {
 variable "launch_template_name" {
   type = string
   description = "instance type"
-  default     = "bh-test"
+  default     = "galp-test
 }
 
 variable "public_subnet" {
@@ -26,7 +26,7 @@ variable "private_subnet" {
 variable "environment" {
   type = string
   description = "environment"
-  default = "ageri-bh-test"
+  default = "galp-test"
 }
 
 variable "subnet_count" {

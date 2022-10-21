@@ -3,7 +3,7 @@ data "aws_ami" "golden_image" {
 
   filter {
     name   = "name"
-    values = ["ageri-bh-test-*"]
+    values = ["${var.environment}-*"]
   }
   owners = ["self"] 
 }
